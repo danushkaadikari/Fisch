@@ -1,2 +1,2 @@
 # Fisch
-Yield Aggregator
+Yield Aggregator - DeFi Protocol of HAFEN
