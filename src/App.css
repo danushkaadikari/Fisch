@@ -1,0 +1,70 @@
+.Box
+{
+  position: absolute;
+  margin-top: 130px;
+  margin-left:200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 700px;
+  border-radius: 10px;
+ 
+ 
+}
+.topic
+{
+  position: relative;
+  margin-top: 100px;
+}
+.content
+{
+  position: absolute;
+  padding: 20px 50px;
+  color: yellow;
+ 
+ 
+}
+ul
+{
+  list-style-type: none;
+  overflow: hidden;
+ 
+
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: rgb(135, 135, 135);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 100px;
+}
+li a:active
+{
+  color: yellow;
+}
+li a:hover
+{
+  color: yellow;
+}
+.content2
+{
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  color: azure;
+  width: 900px;
+  height: 330px;
+  opacity: 0.9;
+  z-index: 1;
+  border-top: 1px solid rgb(255, 255, 255);
+  
+  
+}
+.content3
+{
+  padding-left: 30px ;
+
+}
