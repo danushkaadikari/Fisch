@@ -1,0 +1,203 @@
+.body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .element {
+    height: 1000px;
+    background-color: #ededed;
+    font-size: 45px;
+    border-top: 1px solid #000;
+    padding-top: 55px;
+    padding-left: 10px;
+  }
+  
+  .element.no-padding {
+    padding-top: 0;
+  }
+  
+  .active {
+    color: red !important;
+  }
+  .Box
+{
+  position: absolute;
+  margin-top: 10px;
+  margin-left:50%;
+  transform: translate(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 700px;
+  border-radius: 10px;
+ 
+ 
+}
+.topic
+{
+  position: relative;
+  margin-top: 100px;
+}
+.content
+{
+  position: fixed;
+  padding-top: 10px;
+  color: yellow;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left:50%;
+  transform: translate(-50%);
+  width: 900px;
+  height: 73px;
+  border-radius: 10px;
+  overflow-x:visible;
+  
+ 
+}
+ul
+{
+  list-style-type: none;
+  overflow: hidden;
+ 
+
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: rgb(135, 135, 135);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 80px;
+}
+li a:active
+{
+  color: yellow;
+}
+li a:hover
+{
+  color: yellow;
+}
+.content2
+{
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  margin-top: 100px;
+  color: azure;
+  width: 900px;
+  height: 330px;
+  opacity: 0.9;
+  z-index: 1;
+
+  
+  
+}
+
+.content2_2
+{
+  position: absolute;
+  margin-top: 0px;
+  color: azure;
+  width: 900px;
+  height: 330px;
+  opacity: 0.;
+  z-index: 1;
+
+  
+  
+}
+.content3
+{
+  padding-left: 30px ;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content_2
+{
+  position: absolute;
+  padding: 10px 10px;
+color: white;
+ 
+ 
+}
+.content_3
+{
+  position: absolute;
+ 
+  margin-top: 100px;
+  color: azure;
+  width: 900px;
+  height: 330px;
+  opacity: 0.5;
+  z-index: 1;
+  border-top: 1px solid rgb(138, 138, 138);
+  
+  
+}
+
+.content_4
+{
+  position: absolute;
+ 
+  margin-top: 10px;
+  color: azure;
+  width: 900px;
+  height: 330px;
+  opacity: 0.5;
+  z-index: 1;
+  
+  
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.react-expand-collapse__content {
+  position: relative;
+  overflow: hidden;
+}
+
+.react-expand-collapse__body {
+  display: inline;
+}
+
+/* expand-collapse button */
+.react-expand-collapse__button {
+  color: yellow;
+  position: absolute;
+  bottom: 53px;
+  margin-left:94%;
+  transform: translate(-6%);
+
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-expand-collapse__button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+
+  left: -20px;
+  width: 20px;
+  height: 100%;
+  
+}
+
+
+/* expanded state */
+.react-expand-collapse--expanded .react-expand-collapse__button {
+  margin-left:94%;
+  transform: translate(-6%);
+  position: relative;
+  bottom: 460px;
+  right: auto;
+}
+
+.react-expand-collapse--expanded .react-expand-collapse__button:before {
+  content: none;
+}
+
